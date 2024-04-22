@@ -1,0 +1,29 @@
+/* Reset default margin and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color to black */
+body {
+    background-color: #121212;
+}
+
+/* Define @font-face rule to reference Metropolis-SemiBold.otf */
+@font-face {
+    font-family: 'Metropolis SemiBold';
+    src: url('fonts/Metropolis-SemiBold.otf') format('opentype');
+    /* You may need to adjust the format and path based on the font file's format and location */
+}
+
+/* Style for big text */
+.big-text {
+    font-family: 'Metropolis SemiBold', sans-serif; /* Use the defined font */
+    font-size: 5rem; /* Adjust font size as needed */
+    color: #fff; /* Set text color to white */
+    text-align: center; /* Center-align text */
+    position: absolute; /* Position the text absolutely */
+    top: 50%; /* Move the text down by half of the viewport height */
+    left: 50%; /* Move the text right by half of the viewport width */
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+}
